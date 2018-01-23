@@ -27,7 +27,7 @@ def lambda_handler(event, context):
 
         Filters=[
             {'Name': 'tag-key', 'Values': ['backup', 'Backup']},
-        ]
+         ]
 
     ).get(
         'Reservations', []
